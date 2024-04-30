@@ -1,7 +1,7 @@
 import { Navigate } from 'react-router-dom';
 import { LoginPage, RegisterPage } from '../pages';
  
-export const AutRouthes = [
+export const AutRoutes = [
     {
         path: "login",
         element: <LoginPage/>
@@ -11,7 +11,7 @@ export const AutRouthes = [
         element: <RegisterPage/>
     },
     {
-        path: "/*",
+        path: "/auth/*",
         element: <Navigate to ={ "/auth/login" } />
     }
 ];

@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 
-export const JournalRoute = () => {
+export const AuthRoute = () => {
     return(
         <Outlet />
     );
