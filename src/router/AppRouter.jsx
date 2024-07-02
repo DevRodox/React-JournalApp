@@ -6,7 +6,7 @@ import { AuthRoute } from '../auth/routes/AuthRoute';
 
 export const AppRouter = [
    { 
-      path: "/auth/*",
+      path: "/auth/",
       element: <AuthRoute />,
       children: AutRoutes
    },
