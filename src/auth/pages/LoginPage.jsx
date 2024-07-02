@@ -41,7 +41,7 @@ export const LoginPage = () => {
                                 </Button>
                             </Grid>
 
-                            <Grid container direction='row' justifyContent='end'>
+                            <Grid container direction='row' justifyContent='end' sx={{ mt: 1 }}>
                                 <Link  component={ RouterLink } color='inherit' to='/auth/register'>
                                     Crear una cuenta
                                 </Link>
